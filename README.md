@@ -63,11 +63,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # laravel-vue-spa
-
+```
 edit(product){
 this.isEditMode=true
  this.product.id=product.id;
  this.product.name=product.name;
  this.product.price=product.price;
 },
+```
 Edit Button
