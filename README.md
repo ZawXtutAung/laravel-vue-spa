@@ -63,6 +63,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # laravel-vue-spa
+
+ vue-spa/resources/js/component/ProductConponent.vue
 ```
 edit(product){
 this.isEditMode=true
@@ -72,3 +74,10 @@ this.isEditMode=true
 },
 ```
 Edit Button
+```
+destroy(id){
+axios.delete(`/api/product/${id}`)
+.then(response =>this.view());
+}
+```
+Delete button
